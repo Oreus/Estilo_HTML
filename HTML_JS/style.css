@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "SOTN";
+    src: url("./Olondon_.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+body {
+    background-image: url('./img/sotn_bg_1.jpg');
+    background-size: auto;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: "SOTN", system-ui;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: "SOTN", system-ui;
+}
+p {
+    color: white;
+    font-size: 20px;
+    font-family: "SOTN", system-ui;
+}
+img {
+    display: block;
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+
+body.theme-01 {
+    background-image: url('./img/sotn_bg_1.jpg');
+    background-size: auto;
+}
+body.theme-02 {
+    background-image: url('./img/sotn_bg_2.png');
+    background-size: 1400px;
+}
+body.theme-03 {
+    background-image: url('./img/sotn_bg_3.png');
+    background-size: 1400px;
+}
+body.theme-04 {
+    background-image: url('./img/sotn_bg_4.png');
+    background-size: 730px;
+}
